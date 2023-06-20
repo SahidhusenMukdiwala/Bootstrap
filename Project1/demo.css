@@ -1,0 +1,38 @@
+.navbar-brand{
+    font-family:Verdana;
+    font-size:2em;
+    font-weight:bold;
+}
+
+.navbar #myMenu ul li a{
+    color:white;
+}
+
+.navbar #myMenu ul li a:hover{
+    color:pink;
+}
+
+.backimage{
+    background-image: url(images/Banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 89vh;
+    margin-top: 74px;
+}
+
+.scroll-top
+{
+    position:fixed;
+    bottom:2%;
+    right:2%;
+    width:50px;
+    height:50px;  
+}
+
+.scroll-top .btn{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:20px;
+}
