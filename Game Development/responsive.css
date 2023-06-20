@@ -1,0 +1,50 @@
+@media screen and (max-width: 570px) {
+    .container-fluid{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .carousel-item h1{
+        font-size: 35px;
+    }
+
+    .carousel-item p {
+        font-size: 20px;
+    }
+
+    #carouselExampleControls {
+        margin-top: 25%;
+    }
+
+    .ser_cart i{
+        padding-left: 25%;
+        font-size: 3rem;
+    }
+
+    .First_cart {
+        /* align-items: center; */
+        display: block !important;
+        text-align: center;
+    }
+
+
+    .ser_cart h2{
+        font-size: 1.5rem;
+    }
+    .First_cart i{
+        padding-left: 1%;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #carouselExampleControls {
+        margin-top: 33%;
+    }
+    footer p{
+        font-size: 15px;
+    }
+}
